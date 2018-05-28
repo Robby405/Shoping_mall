@@ -9,8 +9,10 @@
 		<router-link to="/test/title1">标题1</router-link><router-link to="/test/title2">标题2</router-link>
 		<router-view></router-view>
 
-		<!-- 编程时路由 -->
+		<!-- 编程式路由 -->
 		<div @click="gotoGoods">跳转到商品详情页面</div>
+
+		<router-link v-bind:to="{name: 'goods'}">用命名路由的方式跳转到商品详情页面</router-link>
 	</div>
 </template>
 <script>
