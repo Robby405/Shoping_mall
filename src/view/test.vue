@@ -25,9 +25,9 @@
 		methods:{
 			gotoGoods(){
 				// this.$router.push('/goods');
-				this.$router.push({
-					path: '/goods?goodsId=666'
-				});
+				// this.$router.push({
+				// 	path: '/goods?goodsId=666'
+				// });
 				this.$router.push({
 					path :'/goods',
 					query:{
