@@ -1,6 +1,7 @@
 <template>
 	<div class="myHeader">
 		hello world,I'm header.
+		<img src="../assets/logo.png"/>
 	</div>
 </template>
 <script type="text/javascript">
