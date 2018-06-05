@@ -1,19 +1,13 @@
 <template>
-  <div id="app">
-    <my-header></my-header>
-    <my-header></my-header>
-
-    <router-view/>
-  </div>
+<div id="app">
+  <router-view/>
+</div>
 </template>
 
 <script>
 import MyHeader from '@/components/myheader'
 export default {
   name: 'App',
-  components:{
-    MyHeader
-  }
 }
 </script>
 
@@ -25,5 +19,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+html,body{
+  padding: 0;
+  margin: 0;
 }
 </style>
