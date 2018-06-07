@@ -1,0 +1,45 @@
+{
+    "code": 200,
+    "msg": "",
+    "data": {
+        "swiper": [
+            "../static/carousel1.png",
+            "../static/carousel2.png",
+            "../static/carousel3.png"
+        ],
+        "activity": [
+            {
+                "img": "../static/carousel1.png",
+                "name": "品牌:爱马仕",
+                "desc": "这是一个爱马仕的箱包"
+            },
+            {
+                "img": "../static/carousel2.png",
+                "name": "品牌:路易斯威登",
+                "desc": "这是一个LV的经典款包包"
+            },
+            {
+                "img": "../static/carousel3.png",
+                "name": "品牌:香奈儿",
+                "desc": "这是香奈儿五号"
+            }
+        ],
+        "recommend":[
+            {
+                "img": "@/assets/logo.png",
+                "name":"品牌:爱马仕",
+                "desc":"这是一个爱马仕的箱包"
+            },
+            {
+                "img": "@/assets/logo.png",
+                "name":"品牌:路易斯威登",
+                "desc":"这是一个LV的经典款包"
+            },
+            {
+                "img": "@/assets/logo.png",
+                "name":"品牌:香奈儿",
+                "desc":"这是香奈儿5号"
+            }
+        ]
+    }
+}

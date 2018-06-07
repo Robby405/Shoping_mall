@@ -7,6 +7,7 @@
     </div>
 </template>
 <script>
+import axios from 'axios'
 import MyHeader from '@/components/myheader'
 import Carousel from '@/components/carousel'
 import Activity from '@/components/activity'
@@ -24,7 +25,17 @@ export default {
           msg: "hello vue"
       };
   },
-  methods: {}
+  mounted(){
+      this.getIndexData();
+  },
+  methods: {
+      getIndexData(){
+          axios.get("/static/mock.json").then(res => {
+              let data = res.data;
+              console.log(data);
+          });
+      }
+  }
 };
 </script>
 <style scoped>
