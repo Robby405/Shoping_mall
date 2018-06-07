@@ -1,9 +1,9 @@
 <template>
    <swiper class="swiper_container" :options="swiperOption" ref="mySwiper">
       <!-- slides -->
-      <swiper-slide class="swiper_item"><img src="../../static/carousel3.png" /></swiper-slide>
-      <swiper-slide class="swiper_item"><img src="../../static/carousel1.png" /></swiper-slide>
+      <swiper-slide class="swiper_item"><img src="../../static/carousel1.png" class="pics"/></swiper-slide>
       <swiper-slide class="swiper_item"><img src="../../static/carousel2.png" /></swiper-slide>
+      <swiper-slide class="swiper_item"><img src="../../static/carousel3.png" /></swiper-slide>
       <!-- Optional controls -->
       <div class="swiper-pagination" slot="pagination"></div>
       <!-- <div class="swiper-button-prev" slot="button-prev"></div>
@@ -52,9 +52,10 @@ export default {
     width:100%;
     height:180px;
     .swiper_item{
-      img{
-        width:100%;
-        height:100%;
+      text-align: center;
+      .pics{
+        width:840px;
+        height:161px;
       }
     }
   }
